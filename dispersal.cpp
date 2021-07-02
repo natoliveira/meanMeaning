@@ -27,7 +27,7 @@ double variance(const std::vector<double>& numbers) {
     double media = mean(numbers); //pega a média dos numeros
     double variance = 0;
     for (int i = 0; i < numbers.size(); i++) {
-        variance = variance + (numbers[i] - media) * (numbers[i] - media);
+        variance = variance + pow((numbers[i] - media), 2);
     }
     return (double)variance/numbers.size();
 }
