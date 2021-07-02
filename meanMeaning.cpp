@@ -20,7 +20,7 @@ double mode(const vector<double>& numbers) {
     //calculo da mode_calc
     int count = 0;
     int count2 = 0;
-    double	mode_calc = -1;
+    double mode_calc = -1;
 
     for (int i = 0; i < numbers.size(); i++) { //cada numero
         for (int j = i + 1; j < numbers.size(); j++) { //compara com todos os outros do vetor
@@ -65,10 +65,13 @@ int main() {
     vector<double> myVector(myNumbers, myNumbers + sizeof(myNumbers) / sizeof(double));
     auto me = mean(myVector); // calcula a média
     auto mo = mode(myVector);
+    auto pe = percentile(myVector, 25);
 
     cout<<"Media: "<<me<<endl;
     cout<<"Moda: "<<mo<<endl;
+    cout<<"Percentil: "<<pe<<endl;
 
 
     return 0;
 }
+
