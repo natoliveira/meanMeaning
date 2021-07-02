@@ -58,19 +58,18 @@ double median(const std::vector<double>& data) {
 //
 //}
 
-
-
 int main() {
-    double myNumbers[] = {10.0,20.0,10.0,20.0, 20.0}; // vetor de double
+    double myNumbers[] = {10.0,20.0,10.0,20.0,20.0}; // vetor de double
     vector<double> myVector(myNumbers, myNumbers + sizeof(myNumbers) / sizeof(double));
     auto me = mean(myVector); // calcula a média
     auto mo = mode(myVector);
     auto pe = percentile(myVector, 25);
+    auto med = median(myVector);
 
     cout<<"Media: "<<me<<endl;
     cout<<"Moda: "<<mo<<endl;
     cout<<"Percentil: "<<pe<<endl;
-
+    cout<<"Mediana: "<<med<<endl;
 
     return 0;
 }
