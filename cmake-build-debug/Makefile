@@ -143,32 +143,32 @@ untitled35/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled35.dir/build.make CMakeFiles/untitled35.dir/build
 .PHONY : untitled35/fast
 
-meediaAritmetica.o: meediaAritmetica.cpp.o
+meanMeaning.o: meanMeaning.cpp.o
 
-.PHONY : meediaAritmetica.o
+.PHONY : meanMeaning.o
 
 # target to build an object file
-meediaAritmetica.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled35.dir/build.make CMakeFiles/untitled35.dir/meediaAritmetica.cpp.o
-.PHONY : meediaAritmetica.cpp.o
+meanMeaning.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled35.dir/build.make CMakeFiles/untitled35.dir/meanMeaning.cpp.o
+.PHONY : meanMeaning.cpp.o
 
-meediaAritmetica.i: meediaAritmetica.cpp.i
+meanMeaning.i: meanMeaning.cpp.i
 
-.PHONY : meediaAritmetica.i
+.PHONY : meanMeaning.i
 
 # target to preprocess a source file
-meediaAritmetica.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled35.dir/build.make CMakeFiles/untitled35.dir/meediaAritmetica.cpp.i
-.PHONY : meediaAritmetica.cpp.i
+meanMeaning.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled35.dir/build.make CMakeFiles/untitled35.dir/meanMeaning.cpp.i
+.PHONY : meanMeaning.cpp.i
 
-meediaAritmetica.s: meediaAritmetica.cpp.s
+meanMeaning.s: meanMeaning.cpp.s
 
-.PHONY : meediaAritmetica.s
+.PHONY : meanMeaning.s
 
 # target to generate assembly for a file
-meediaAritmetica.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled35.dir/build.make CMakeFiles/untitled35.dir/meediaAritmetica.cpp.s
-.PHONY : meediaAritmetica.cpp.s
+meanMeaning.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled35.dir/build.make CMakeFiles/untitled35.dir/meanMeaning.cpp.s
+.PHONY : meanMeaning.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... untitled35"
-	@echo "... meediaAritmetica.o"
-	@echo "... meediaAritmetica.i"
-	@echo "... meediaAritmetica.s"
+	@echo "... meanMeaning.o"
+	@echo "... meanMeaning.i"
+	@echo "... meanMeaning.s"
 .PHONY : help
 
 

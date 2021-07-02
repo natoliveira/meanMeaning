@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/nat/CLionProjects/untitled35/meediaAritmetica.cpp" "/Users/nat/CLionProjects/untitled35/cmake-build-debug/CMakeFiles/untitled35.dir/meediaAritmetica.cpp.o"
+  "/Users/nat/CLionProjects/untitled35/meanMeaning.cpp" "/Users/nat/CLionProjects/untitled35/cmake-build-debug/CMakeFiles/untitled35.dir/meanMeaning.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

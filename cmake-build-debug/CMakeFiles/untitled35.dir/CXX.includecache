@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/Users/nat/CLionProjects/untitled35/meediaAritmetica.cpp
+/Users/nat/CLionProjects/untitled35/meanMeaning.cpp
 iostream
+-
+vector
+-
+list
+-
+numeric
+-
+cmath
 -
 

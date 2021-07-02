@@ -77,27 +77,27 @@ include CMakeFiles/untitled35.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/untitled35.dir/flags.make
 
-CMakeFiles/untitled35.dir/meediaAritmetica.cpp.o: CMakeFiles/untitled35.dir/flags.make
-CMakeFiles/untitled35.dir/meediaAritmetica.cpp.o: ../meediaAritmetica.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nat/CLionProjects/untitled35/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled35.dir/meediaAritmetica.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled35.dir/meediaAritmetica.cpp.o -c /Users/nat/CLionProjects/untitled35/meediaAritmetica.cpp
+CMakeFiles/untitled35.dir/meanMeaning.cpp.o: CMakeFiles/untitled35.dir/flags.make
+CMakeFiles/untitled35.dir/meanMeaning.cpp.o: ../meanMeaning.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/nat/CLionProjects/untitled35/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled35.dir/meanMeaning.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled35.dir/meanMeaning.cpp.o -c /Users/nat/CLionProjects/untitled35/meanMeaning.cpp
 
-CMakeFiles/untitled35.dir/meediaAritmetica.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled35.dir/meediaAritmetica.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nat/CLionProjects/untitled35/meediaAritmetica.cpp > CMakeFiles/untitled35.dir/meediaAritmetica.cpp.i
+CMakeFiles/untitled35.dir/meanMeaning.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled35.dir/meanMeaning.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/nat/CLionProjects/untitled35/meanMeaning.cpp > CMakeFiles/untitled35.dir/meanMeaning.cpp.i
 
-CMakeFiles/untitled35.dir/meediaAritmetica.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled35.dir/meediaAritmetica.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nat/CLionProjects/untitled35/meediaAritmetica.cpp -o CMakeFiles/untitled35.dir/meediaAritmetica.cpp.s
+CMakeFiles/untitled35.dir/meanMeaning.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled35.dir/meanMeaning.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/nat/CLionProjects/untitled35/meanMeaning.cpp -o CMakeFiles/untitled35.dir/meanMeaning.cpp.s
 
 # Object files for target untitled35
 untitled35_OBJECTS = \
-"CMakeFiles/untitled35.dir/meediaAritmetica.cpp.o"
+"CMakeFiles/untitled35.dir/meanMeaning.cpp.o"
 
 # External object files for target untitled35
 untitled35_EXTERNAL_OBJECTS =
 
-untitled35: CMakeFiles/untitled35.dir/meediaAritmetica.cpp.o
+untitled35: CMakeFiles/untitled35.dir/meanMeaning.cpp.o
 untitled35: CMakeFiles/untitled35.dir/build.make
 untitled35: CMakeFiles/untitled35.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/nat/CLionProjects/untitled35/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable untitled35"
