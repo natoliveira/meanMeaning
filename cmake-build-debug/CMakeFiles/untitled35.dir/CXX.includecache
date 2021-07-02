@@ -6,14 +6,10 @@
 
 #IncludeRegexTransform: 
 
-/Users/nat/CLionProjects/untitled35/meanMeaning.cpp
+/Users/nat/CLionProjects/untitled35/dispersal.cpp
 iostream
 -
 vector
--
-list
--
-numeric
 -
 cmath
 -

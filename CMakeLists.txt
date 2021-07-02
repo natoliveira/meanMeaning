@@ -3,4 +3,4 @@ project(untitled35)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled35 meanMeaning.cpp)
+add_executable(untitled35 meanMeaning.cpp dispersal.cpp)

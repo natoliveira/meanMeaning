@@ -143,6 +143,33 @@ untitled35/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled35.dir/build.make CMakeFiles/untitled35.dir/build
 .PHONY : untitled35/fast
 
+dispersal.o: dispersal.cpp.o
+
+.PHONY : dispersal.o
+
+# target to build an object file
+dispersal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled35.dir/build.make CMakeFiles/untitled35.dir/dispersal.cpp.o
+.PHONY : dispersal.cpp.o
+
+dispersal.i: dispersal.cpp.i
+
+.PHONY : dispersal.i
+
+# target to preprocess a source file
+dispersal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled35.dir/build.make CMakeFiles/untitled35.dir/dispersal.cpp.i
+.PHONY : dispersal.cpp.i
+
+dispersal.s: dispersal.cpp.s
+
+.PHONY : dispersal.s
+
+# target to generate assembly for a file
+dispersal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled35.dir/build.make CMakeFiles/untitled35.dir/dispersal.cpp.s
+.PHONY : dispersal.cpp.s
+
 meanMeaning.o: meanMeaning.cpp.o
 
 .PHONY : meanMeaning.o
@@ -179,6 +206,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... untitled35"
+	@echo "... dispersal.o"
+	@echo "... dispersal.i"
+	@echo "... dispersal.s"
 	@echo "... meanMeaning.o"
 	@echo "... meanMeaning.i"
 	@echo "... meanMeaning.s"
